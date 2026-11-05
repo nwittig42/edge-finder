@@ -1,0 +1,89 @@
+{
+  "phone": "",
+  "sports": [
+    "americanfootball_nfl",
+    "americanfootball_ncaaf",
+    "basketball_nba",
+    "basketball_ncaab",
+    "icehockey_nhl",
+    "soccer_epl",
+    "soccer_usa_mls",
+    "mma_mixed_martial_arts",
+    "soccer_spain_la_liga",
+    "soccer_germany_bundesliga",
+    "soccer_italy_serie_a",
+    "soccer_france_ligue_one",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa_league",
+    "soccer_uefa_europa_conference_league",
+    "soccer_efl_champ",
+    "soccer_mexico_ligamx",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_germany_bundesliga2"
+  ],
+  "markets": [
+    "h2h",
+    "spreads",
+    "totals"
+  ],
+  "sharp_book": "pinnacle",
+  "venues": [
+    "kalshi",
+    "polymarket_us"
+  ],
+  "min_ev": {
+    "h2h": 0.03,
+    "spreads": 0.03,
+    "totals": 0.03
+  },
+  "wide_market_overround": 0.045,
+  "wide_market_penalty": 0.01,
+  "skip_overround_above": 0.08,
+  "max_believable_ev": 0.15,
+  "max_line_age_minutes": 15,
+  "min_minutes_to_start": 20,
+  "max_hours_to_start": 36,
+  "bankroll": 1000,
+  "kelly_fraction": 0.25,
+  "max_bet_pct": 0.02,
+  "max_alerts": 8,
+  "fees": {
+    "kalshi_taker_coefficient": 0.07,
+    "polymarket_us_taker_coefficient": 0.0695
+  },
+  "bankroll_by_venue": {
+    "kalshi": 500,
+    "polymarket_us": 500
+  },
+  "mode": "paper",
+  "quiet_hours": [
+    1,
+    8
+  ],
+  "recap_hour": 9,
+  "reserve_credits": 1000,
+  "min_interval_minutes": 10,
+  "display_books": [
+    "draftkings",
+    "fanduel",
+    "williamhill_us"
+  ],
+  "sharp_weights": {
+    "pinnacle": 0.5,
+    "betfair_ex_eu": 0.2,
+    "betonlineag": 0.1,
+    "novig": 0.1,
+    "prophetx": 0.1
+  },
+  "min_ev_consensus": {
+    "h2h": 0.015,
+    "spreads": 0.02,
+    "totals": 0.02
+  },
+  "consensus_min_books": 3,
+  "consensus_max_spread": 0.02,
+  "max_open_exposure_pct": 0.25,
+  "track_min_ev": 0.0,
+  "track_stake": 10
+}

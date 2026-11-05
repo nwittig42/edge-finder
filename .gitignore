@@ -1,0 +1,16 @@
+# Keys: never commit
+.env
+*.env
+.keys/
+*.pem
+secret*.txt
+# Runtime data (bets, state, price history) stays local
+logs/
+# Pages the engine regenerates every cycle
+dashboard.html
+odds.html
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+!.env.example
